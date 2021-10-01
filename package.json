@@ -1,13 +1,13 @@
 {
-  "name": "@maxenov/ajs",
+  "name": "maxenov",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,9 @@
     "webpack": "^4.43.0"
   },
   "dependencies": {
+    "@maxenov/ajs": "^1.0.0",
     "save-dev": "0.0.1-security",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "description": ""
 }
